@@ -1,6 +1,6 @@
 #! /bin/bash
 DIR= ~/git_repos/bash-scripts/dotfiles
-ignore =(scripts, backups, installer.sh
+ignore = ( scripts, backups, installer.sh )
 
 cd $DIR
 for filename in *
