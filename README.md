@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-all the cool kids are doing it. its my turn.
+installer and pathogen not working yet.
