@@ -1,4 +1,4 @@
-"execute pathogen#infect()"
+execute pathogen#infect()
 
 "From Bilal:"
 "A simple vimrc that I give to people just starting to use Vim."
@@ -47,3 +47,16 @@ inoremap qq <Esc>`^
 
 "Turn on plugin & indentation support for specific filetypes"
 filetype plugin indent on
+
+"Include pathogen"
+call pathogen#infect()
+call pathogen#helptags()
+
+"Enable Syntastic"
+let g:syntastic_check_on_open=1
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=1
+let g:syntastic_quiet_warnings=1
+let g:syntastic_mode_map = { 'mode': 'active',
+	\ 'active_filetypes': [],
+	\ 'passive_filetypes': [] }
