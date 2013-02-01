@@ -51,6 +51,7 @@ filetype plugin indent on
 "Include pathogen"
 call pathogen#infect()
 call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 
 "Enable Syntastic"
 let g:syntastic_check_on_open=1

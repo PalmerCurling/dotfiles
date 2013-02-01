@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-installer and pathogen not working yet.
+installer and not working yet.
