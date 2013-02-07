@@ -1,5 +1,3 @@
-execute pathogen#infect()
-
 "From Bilal:"
 "A simple vimrc that I give to people just starting to use Vim."
 "Lines beginning with a double quote are comments."
@@ -49,9 +47,8 @@ inoremap qq <Esc>`^
 filetype plugin indent on
 
 "Include pathogen"
+runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
-call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
 
 "Enable Syntastic"
 let g:syntastic_check_on_open=1
