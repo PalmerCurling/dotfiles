@@ -109,5 +109,5 @@ fi
 alias android-connect="mkdir /home/eric/GalaxyNexus && chmod 777 /home/eric/GalaxyNexus && mtpfs -o allow_other /home/eric/GalaxyNexus"
 
 alias android-disconnect="fusermount -u /home/eric/GalaxyNexus && rmdir /home/eric/GalaxyNexus"
-PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/eric/bin:/home/eric/gccg:/home/eric/bash-scripts
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/eric/bin:/home/eric/gccg:/home/eric/git_repos/
 export TERM="xterm-256color"
