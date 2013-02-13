@@ -42,6 +42,11 @@ set smartcase "Unless you put some caps in your search term"
 "Use qq instead of escape in insert mode"
 inoremap qq <Esc>`^
 
+"fix my tendency to attempt to quit vim too quickly"
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
 
 "Turn on plugin & indentation support for specific filetypes"
 filetype plugin indent on
