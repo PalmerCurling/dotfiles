@@ -1,39 +1,31 @@
 #WINDOW LAYOUT/OPIONS#
 double_buffer yes
 own_window yes
-own_window_type desktop
+own_window_type desktop #(set to normal for positioning during setup)
 own_window_transparent yes
-alignment top_right 
+alignment middle_right 
 
 
 #COLORS AND SUCH#
 default_color grey
 
 TEXT
-$nodename - $sysname $kernel on $machine
-
+${color red}$nodename - $sysname $kernel on $machine
+$color$hr
+${color darkorchid3}System Information:
+$color
+Uptime: $uptime
+RAM Usage: $mem/$memmax - $memperc% ${membar 4}
+CPU Usage: $cpu% ${cpubar 4}
+Processes: $processes  ${color grey}Running:$color $running_processes
 $hr
-
-${color darkorchid3}Uptime:$color $uptime
-
-${color darkorchid3}RAM Usage:$color $mem/$memmax - $memperc% ${membar 4}
-
-${color darkorchid3}CPU Usage:$color $cpu% ${cpubar 4}
-
-${color darkorchid3}Processes:$color $processes  ${color grey}Running:$color $running_processes
-
-$hr
-
 ${color darkorchid3}File systems:
-
-/ $color${fs_free /}/${fs_size /} ${fs_used_perc /}%
+$color
+/ ${fs_free /}/${fs_size /} ${fs_used_perc /}%
 ${fs_bar 4 /}
-
-/home $color${fs_free /home}/${fs_size /home} ${fs_used_perc /home}%
+/home ${fs_free /home}/${fs_size /home} ${fs_used_perc /home}%
 ${fs_bar 4 /home}
-
 ${color darkorchid3}Networking:
-
-Up:$color ${upspeed eth0} ${color grey} - Down:$color ${downspeed eth0}
-
-Up:$color ${upspeed wlan0} ${color grey} - Down:$color ${downspeed wlan0}
+$color
+Up: ${upspeed eth0} ${color grey} - Down:$color ${downspeed eth0}
+Up: ${upspeed wlan0} ${color grey} - Down:$color ${downspeed wlan0}
