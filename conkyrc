@@ -1,16 +1,18 @@
 #WINDOW LAYOUT/OPIONS#
 double_buffer yes
 own_window yes
-own_window_type desktop #(set to normal for positioning during setup)
-own_window_transparent yes
-alignment middle_right 
-
+own_window_type desktop  #(set to normal for positioning during setup)
+alignment middle_right
 
 #COLORS AND SUCH#
 default_color grey
+own_window_argb_visual true
+own_window_transparent yes
+own_window_argb_value 225
+
 
 TEXT
-${color red}$nodename - $sysname $kernel on $machine
+${color darkorchid3}$nodename - $sysname $kernel on $machine
 $color$hr
 ${color darkorchid3}System Information:
 $color
@@ -25,7 +27,13 @@ $color
 ${fs_bar 4 /}
 /home ${fs_free /home}/${fs_size /home} ${fs_used_perc /home}%
 ${fs_bar 4 /home}
+$hr
 ${color darkorchid3}Networking:
 $color
+Ethernet
 Up: ${upspeed eth0} ${color grey} - Down:$color ${downspeed eth0}
+Wi-Fi: ${wireless_essid wlan0}
 Up: ${upspeed wlan0} ${color grey} - Down:$color ${downspeed wlan0}
+
+Wired IP Address: ${addrs eth0}
+Wireless IP Address: ${addrs wlan0}
