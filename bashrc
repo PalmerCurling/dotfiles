@@ -118,3 +118,6 @@ alias android-disconnect="fusermount -u /home/eric/GalaxyNexus && rmdir /home/er
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/eric/bin:/home/eric/gccg
 
 export TERM="xterm-256color"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
