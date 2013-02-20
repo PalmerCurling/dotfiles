@@ -8,4 +8,4 @@ ln -s ./vimrc ~/.vimrc
 ln -s ./bash_profile ~/.bash_profile
 ln -s ./bashrc ~/.bashrc
 ln -s ./conkyrc ~/.conkyrc
-ln -s color/distinguished/colors/distinguished.vim vim/colors/
+ln -s ./color/distinguished/colors/distinguished.vim ./vim/colors/
