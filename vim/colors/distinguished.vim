@@ -1,1 +1,1 @@
-/home/eric/git_repos/dotfiles/colors/colors/distinguished.vim
+../../colors/colors/distinguished.vim
