@@ -5,14 +5,13 @@
 "Basic settings"
 "======================================================================="
 set nocompatible "Fixes old Vi bugs"
-syntax on
+syntax enable
 set backspace=2 "Makes backspace work"
 set history=500 "Sets undo history size"
 set ruler "Sets up status bar"
 set laststatus=2 "Always keeps the status bar active"
 set number "Turns on line numbering"
 set t_Co=256 "Sets Vim to use 256 colors"
-colorscheme distinguished
 
 "Indentation settings"
 "======================================================================="
@@ -54,6 +53,8 @@ filetype plugin indent on
 "Include pathogen"
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 call pathogen#infect()
+
+colorscheme distinguished
 
 "Enable Syntastic"
 let g:syntastic_check_on_open=1
