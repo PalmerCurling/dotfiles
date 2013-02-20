@@ -7,6 +7,6 @@
 [submodule "vim/bundle/vim-pathogen"]
 	path = vim/bundle/vim-pathogen
 	url = git@github.com:tpope/vim-pathogen.git
-[submodule "colors"]
-	path = colors
+[submodule "color/distinguished"]
+	path = color/distinguished
 	url = git@github.com:Lokaltog/vim-distinguished.git
