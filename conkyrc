@@ -71,6 +71,7 @@ ${offset 55}${font Ubuntu:size=7,weight:normal}${color3}${top name 4}${alignr}${
 ${offset 55}${font Ubuntu:size=7,weight:normal}${color3}${top name 5}${alignr}${top cpu 5}%
 
 ${voffset 24}
+
 ${offset 45}${font Ubuntu:size=7,weight:bold}${color}MEM
 ${offset 55}${font Ubuntu:size=7,weight:normal}${color4}${top_mem name 1}${alignr}${top_mem mem 1}%
 ${offset 55}${font Ubuntu:size=7,weight:normal}${color1}${top_mem name 2}${alignr}${top_mem mem 2}%
@@ -79,6 +80,7 @@ ${offset 55}${font Ubuntu:size=7,weight:normal}${color3}${top_mem name 4}${align
 ${offset 55}${font Ubuntu:size=7,weight:normal}${color3}${top_mem name 4}${alignr}${top_mem mem 5}%
 
 ${voffset 8}
+
 ${offset 65}${diskiograph 20,110 666666 666666}${voffset -15}
 ${offset 45}${font Ubuntu:size=7,weight:bold}${color}DISK
 #${offset 55}${diskiograph 20,150 666666 666666}${voffset -30}
