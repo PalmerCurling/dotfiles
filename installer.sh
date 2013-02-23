@@ -8,6 +8,7 @@ ln -s ./vimrc ~/.vimrc
 ln -s ./bash_profile ~/.bash_profile
 ln -s ./bashrc ~/.bashrc
 ln -s ./conkyrc ~/.conkyrc
+ln -s ./conky ~/.conky
 
 mkdir vim/colors
 cd vim/colors
