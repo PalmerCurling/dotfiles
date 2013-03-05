@@ -107,14 +107,10 @@ if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
 fi
 
 #some aliases
-alias adb='sudo adb'
-alias fastboot='sudo fastboot'
+#alias adb='sudo adb'
+#alias fastboot='sudo fastboot'
 alias vi='vim'
 alias android-sdk='/usr/local/android-sdk/tools/android'
-
-#MTP aliasing
-alias android-connect="mkdir /home/eric/GalaxyNexus && chmod 777 /home/eric/GalaxyNexus && mtpfs -o allow_other /home/eric/GalaxyNexus"
-alias android-disconnect="fusermount -u /home/eric/GalaxyNexus && rmdir /home/eric/GalaxyNexus"
 
 PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/eric/bin:/home/eric/gccg
 
