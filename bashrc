@@ -110,6 +110,7 @@ fi
 alias adb='sudo adb'
 alias fastboot='sudo fastboot'
 alias vi='vim'
+alias android-sdk='/usr/local/android-sdk/tools/android'
 
 #MTP aliasing
 alias android-connect="mkdir /home/eric/GalaxyNexus && chmod 777 /home/eric/GalaxyNexus && mtpfs -o allow_other /home/eric/GalaxyNexus"
