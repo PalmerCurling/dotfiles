@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-installer and not working yet.
+With some help, we have fully working dotfiles repo and installer!
