@@ -22,7 +22,7 @@ no_buffers yes
 text_buffer_size 2048
 
 gap_x 10
-gap_y 100
+gap_y 80
 minimum_size 180 500
 maximum_width 180
 own_window_class conky
@@ -94,4 +94,6 @@ ${offset 10}${font Ubuntu:size=7,weight:bold}${color}ETHERNET             WIRELE
 ${offset 10}${color2}${addr eth0}${alignr}${addr wlan0}
 #${offset 10}${color}Up: $color2${upspeed eth0} ${alignr}${color}Down: $color2${downspeed wlan0}
 #${offset 10}${color}Down: $color2${downspeed eth0} ${alignr}${color}Down: $color2${downspeed wlan0}
+${alignc}${font Ubuntu:size=7,weight:bold}${color}PUBLIC IP
+${alignc}${color2}${execi 3600 wget -O - http://ip.tupeux.com | tail}
 ${color4}${hr 2}
