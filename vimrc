@@ -56,6 +56,9 @@ call pathogen#infect()
 
 colorscheme distinguished
 
+"enable mouse copy"
+:set mouse=a
+
 "Enable Syntastic"
 let g:syntastic_check_on_open=1
 let g:syntastic_enable_signs=1
