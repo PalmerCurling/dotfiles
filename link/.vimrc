@@ -2,6 +2,34 @@
 "A simple vimrc that I give to people just starting to use Vim."
 "Lines beginning with a double quote are comments."
 
+"Load plugins and set up mappings and options"
+"======================================================================="
+"Minimum version for plugins"
+if version >= 702
+	"Install vundle if we don't have it"
+	let s:vundle_init=0
+	let s:vundle_readme=expand('~/.vim/bundle/vundle/README.md')
+	if !filereadable(s:vundle_readme)
+		echo "Installing Vundle..\n"
+		silent !mkdir -p ~/.vim/bundle
+		silent !git clone git://github.com/gmarik/vundle ~/.vim/bundle/vundle
+		let s:vundle_init=1
+	endif
+
+	"Setup vundle"
+	filetype off
+	set rtp+=~/.vim/bundle/vundle/
+	let $GIT_SSL_NO_VERIFY = 'true'        " Don't use SSL
+	let g:vundle_default_git_proto = 'git' " Use git:// over http://
+	call vundle#rc()
+	Bundle 'gmarik/vundle'
+
+	"Load our plugins"
+	Bundle 'scrooloose/syntastic'
+	Bundle 'Lokaltog/vim-distinguished'
+
+endif
+
 "Basic settings"
 "======================================================================="
 set nocompatible "Fixes old Vi bugs"

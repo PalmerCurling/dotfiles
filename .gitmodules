@@ -1,12 +1,3 @@
-[submodule "bundle/syntastic"]
-	path = bundle/syntastic
-	url = git@github.com:scrooloose/syntastic.git
-[submodule "vim/bundle/syntastic"]
-	path = vim/bundle/syntastic
-	url = git@github.com:scrooloose/syntastic.git
-[submodule "vim/bundle/vim-pathogen"]
-	path = vim/bundle/vim-pathogen
-	url = git@github.com:tpope/vim-pathogen.git
-[submodule "vim/bundle/vim-distinguished"]
-	path = vim/bundle/vim-distinguished
-	url = git@github.com:Lokaltog/vim-distinguished.git
+[submodule "ltd"]
+	path = ltd
+	url = git://github.com/jmatth/LinkTheDots.git
