@@ -47,6 +47,10 @@ inoremap qq <Esc>`^
 :command W w
 :command Q q
 
+"Other settings below this line"
+"======================================================================="
+
+
 "Turn on plugin & indentation support for specific filetypes"
 filetype plugin indent on
 
@@ -77,3 +81,6 @@ autocmd FileType css set omnifunc=csscomplete#CompleteCSS
 autocmd FileType xml set omnifunc=xmlcomplete#CompleteTags
 autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
+
+"Enable code folding"
+:set foldmethod=indent
