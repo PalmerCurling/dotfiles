@@ -15,7 +15,6 @@ update_interval 1
 
 cpu_avg_samples 2
 net_avg_samples 2
-temperature_unit farenheit
 
 double_buffer yes
 no_buffers yes
