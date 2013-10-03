@@ -52,7 +52,7 @@ inoremap qq <Esc>`^
 
 
 "Turn on plugin & indentation support for specific filetypes"
-filetype plugin indent on
+#filetype plugin indent on
 
 "Include pathogen"
 runtime bundle/vim-pathogen/autoload/pathogen.vim
