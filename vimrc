@@ -83,4 +83,4 @@ autocmd FileType php set omnifunc=phpcomplete#CompletePHP
 autocmd FileType c set omnifunc=ccomplete#Complete
 
 "Enable code folding"
-:set foldmethod=indent
+":set foldmethod=indent"
