@@ -33,7 +33,7 @@ own_window_argb_value 0
 own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
 border_inner_margin 0
 border_outer_margin 0
-alignment tr
+alignment bl
 
 draw_shades no
 draw_outline no
