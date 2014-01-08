@@ -18,7 +18,7 @@ require 'cairo'
 gauge = {
 {
     name='cpu',                    arg='cpu0',                  max_value=100,
-    x=40,                          y=90,
+    x=40,                          y=85,
     graph_radius=36,
     graph_thickness=5,
     graph_start_angle=180,
@@ -39,7 +39,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu1',                  max_value=100,
-    x=40,                          y=90,
+    x=40,                          y=85,
     graph_radius=30,
     graph_thickness=5,
     graph_start_angle=180,
@@ -60,7 +60,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu2',                  max_value=100,
-    x=40,                          y=90,
+    x=40,                          y=85,
     graph_radius=24,
     graph_thickness=5,
     graph_start_angle=180,
@@ -81,7 +81,7 @@ gauge = {
 },
 {
     name='cpu',                    arg='cpu3',                  max_value=100,
-    x=40,                          y=90,
+    x=40,                          y=85,
     graph_radius=18,
     graph_thickness=5,
     graph_start_angle=180,
@@ -102,7 +102,7 @@ gauge = {
 },
 {
     name='memperc',                arg='',                      max_value=100,
-    x=40,                          y=210,
+    x=40,                          y=195,
     graph_radius=24,
     graph_thickness=5,
     graph_start_angle=180,
@@ -123,7 +123,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/home',                     max_value=100,
-    x=40,                          y=330,
+    x=40,                          y=305,
     graph_radius=30,
     graph_thickness=5,
     graph_start_angle=180,
@@ -144,7 +144,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/',                     max_value=100,
-    x=40,                          y=330,
+    x=40,                          y=305,
     graph_radius=24,
     graph_thickness=5,
     graph_start_angle=180,
