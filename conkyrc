@@ -46,9 +46,9 @@ xftfont caviar dreams:size=8
 xftalpha 0.5
 uppercase no
 
-default_color 000000
-color1 000000
-color2 000000
+default_color ffffff
+color1 ffffff
+color2 ffffff
 color3 darkred
 color4 darkorchid3
 
