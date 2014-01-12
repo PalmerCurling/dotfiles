@@ -123,7 +123,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/home',                     max_value=100,
-    x=40,                          y=305,
+    x=40,                          y=315,
     graph_radius=30,
     graph_thickness=5,
     graph_start_angle=180,
@@ -144,7 +144,7 @@ gauge = {
 },
 {
     name='fs_used_perc',           arg='/',                     max_value=100,
-    x=40,                          y=305,
+    x=40,                          y=315,
     graph_radius=24,
     graph_thickness=5,
     graph_start_angle=180,
