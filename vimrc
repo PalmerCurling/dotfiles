@@ -72,6 +72,9 @@ let g:syntastic_mode_map = { 'mode': 'active',
 	\ 'active_filetypes': [],
 	\ 'passive_filetypes': [] }
 hi Normal ctermbg=none
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
 
 "Enable Omnifunction (tab completion)"
 autocmd FileType python set omnifunc=pythoncomplete#Complete
