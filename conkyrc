@@ -33,7 +33,7 @@ own_window_argb_value 0
 own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
 border_inner_margin 0
 border_outer_margin 0
-alignment br
+alignment bl
 
 draw_shades no
 draw_outline no
@@ -46,9 +46,9 @@ xftfont caviar dreams:size=8
 xftalpha 0.5
 uppercase no
 
-default_color ffffff
-color1 ffffff
-color2 ffffff
+default_color black
+color1 darkslategrey4
+color2 crimson
 color3 darkred
 color4 darkorchid3
 
