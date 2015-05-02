@@ -116,10 +116,6 @@ PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/us
 
 export TERM="xterm-256color"
 
-#Cuda Config
-export PATH=$PATH:/usr/local/cuda/bin
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/lib
-
 #Virtualenv config
 export WORKON_HOME=$HOME/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
@@ -138,6 +134,13 @@ else
 	echo ""
 fi
 }
+
+#cuda path
+export CUDA_HOME=/usr/local/cuda-6.5 
+export LD_LIBRARY_PATH=${CUDA_HOME}/lib64 
+ 
+PATH=${CUDA_HOME}/bin:${PATH} 
+
 # get current status of git repo
 function parse_git_dirty {
 status=`git status 2>&1 | tee`

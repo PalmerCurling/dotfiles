@@ -20,7 +20,7 @@ double_buffer yes
 no_buffers yes
 text_buffer_size 2048
 
-gap_x 200
+gap_x 40 #200 for offset towards center
 gap_y 40
 minimum_size 180 500
 maximum_width 180
@@ -33,7 +33,7 @@ own_window_argb_value 0
 own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
 border_inner_margin 0
 border_outer_margin 0
-alignment bm
+alignment tl #bm of offset towards center
 
 draw_shades no
 draw_outline no
